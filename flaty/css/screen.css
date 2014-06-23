@@ -1,0 +1,32 @@
+#fase-oitavas-final, #fase-quartas-final, #fase-semi-final, #fase-terceiro-lugar, #fase-final { 
+    display:none;
+}
+
+.box-menu { 
+    cursor:pointer; 
+}
+
+.box-menu:hover, .box-menu.active { 
+    background-color:#0e6390; 
+}
+
+.box-menu p { 
+    font-size:30px; 
+    text-align:center; 
+}
+
+table thead tr th {
+    text-align:center;
+}
+
+table tbody tr td {
+    text-align:center;
+}
+
+table tbody tr td.left {
+    text-align:left;
+}
+
+.penaltis select {
+    width:100px;
+}

@@ -1,0 +1,65 @@
+/* Example Styles for Demo */
+.etabs {
+	margin:0;
+	padding:0;
+}
+
+.tab {
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	background:#eee;
+	border-radius:4px 4px 0 0;
+	-moz-border-radius:4px 4px 0 0;
+	-webkit-border-radius:4px 4px 0 0;
+	box-shadow: 1px -1px 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 1px -1px 1px rgba(0,0,0,.1);
+	-webkit-box-shadow: 1px -1px 1px rgba(0,0,0,.1);
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+}
+
+.tab a {
+	font: 13px 'amaranth-italic';
+	line-height:2em;
+	display:block;
+	padding:2px 15px 0;
+	outline:none;
+	color: #999;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+}
+
+.tab a:hover {
+	color: #000;
+}
+
+.tab.active {
+	background:#fff;
+	padding-top:6px;
+	position:relative;
+	top:1px;
+	
+}
+
+.tab a.active {
+	color: #7FBF2B;
+	font-size: 16px;
+}
+
+.tab-container .panel-container {
+	background:#fff;
+	padding:10px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.3);
+	border-radius:0 4px 4px 4px;
+	-moz-border-radius:0 4px 4px;
+	-webkit-border-radius:0 4px 4px 4px;
+}
+
+.panel-container {
+	margin-bottom:10px;
+}
